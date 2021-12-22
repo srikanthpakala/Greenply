@@ -39,9 +39,8 @@ const routes: Routes = [
   // Login credentials
   {path:'signin',component:SigninComponent},
   {path:'signup',component:SignupComponent},
-
   // Default page
-  {path:'', redirectTo:'home', pathMatch:"full"}
+  {path:'',redirectTo:'home', pathMatch: 'full'}
 ];
 
 @NgModule({
