@@ -38,7 +38,10 @@ const routes: Routes = [
   {path:'privacypolicy',component:PrivacypolicyComponent},
   // Login credentials
   {path:'signin',component:SigninComponent},
-  {path:'signup',component:SignupComponent}
+  {path:'signup',component:SignupComponent},
+
+  // Default page
+  {path:'', redirectTo:'home', pathMatch:"full"}
 ];
 
 @NgModule({

@@ -59,7 +59,7 @@ hr {
   
   /* Style the front side (fallback if image is missing) */
   .flip-card-front {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(245, 237, 237);
     box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px,
                    rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
   }
