@@ -3,7 +3,6 @@
     font-family: 'Titillium Web', sans-serif;
 }
 hr {
-    width: 28%;
     position: relative;
     border: none;
     height: 1px;
@@ -14,17 +13,42 @@ hr {
     width: 900px;
 }
 
-img{
-    width: 500px;
+.Environmental_Sustainability {
+    width: 100%;
+    margin: 0px auto 40px;
+    display: flex;
 }
-.Frontiers hr{
-    width: 20%;
+
+.Environmental_Sustainability .Environmental_text {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
     position: relative;
-    border: none;
-    height: 1px;
-    background: #164620;
-    margin-top: -5px;
+    padding-right: 20px;
+    line-height: 35px; 
 }
-li{
-    line-height: 35px;
+
+.Environmental_text ul {
+    overflow-y: scroll;
+    height: 367px;
+    margin: 0;
+}
+
+  ::-webkit-scrollbar {
+    width: 3px;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #164620; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+
+img{
+    width: 650px;
 }
