@@ -29,6 +29,10 @@ hr {
     line-height: 35px; 
 }
 
+.nav a {
+  font-weight: bold;
+}
+
 .Environmental_text ul {
     overflow-y: scroll;
     height: 367px;
@@ -36,7 +40,7 @@ hr {
 }
 
   ::-webkit-scrollbar {
-    width: 3px;
+    width: 5px;
   }
   
   /* Handle */
@@ -46,9 +50,9 @@ hr {
   
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
-    background: #555; 
+    background: rgb(248, 6, 6); 
   }
 
 img{
-    width: 650px;
+    width: 660px;
 }
